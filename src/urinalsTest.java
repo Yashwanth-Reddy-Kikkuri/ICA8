@@ -26,4 +26,10 @@ class urinalsTest {
         assertNotNull(output);
         System.out.println("==========Yashwanth Reddy Kikkuri == TEST ONE EXECUTED == FOR READ FILE ====== ");
     }
+
+    @org.junit.jupiter.api.Test
+    void writeFile(){
+        writeFile wf = new writeFile();
+
+    }
 }
