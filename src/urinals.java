@@ -25,9 +25,13 @@ public class urinals {
 
         else if(str.equals("2")){
             readFile rf = new readFile();
-            String output = rf.readFromFile();
+            StringBuilder output = rf.readFromFile();
             writeFile wf = new writeFile();
-            wf.writeToFile(output);
+            System.out.println(output);
+            if (output != null){
+                wf.writeToFile(output);
+            }
+
         }
 
 

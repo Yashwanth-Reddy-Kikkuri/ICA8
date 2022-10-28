@@ -1,4 +1,4 @@
 public class writeFile {
-    public void writeToFile(String output) {
+    public void writeToFile(StringBuilder output) {
     }
 }
