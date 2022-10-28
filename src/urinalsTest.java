@@ -40,11 +40,11 @@ class urinalsTest {
     @org.junit.jupiter.api.Test
     void writeFile() throws IOException {
         writeFile wf = new writeFile();
-//        assertEquals("rule5.txt",wf.fileName().getName());
-//        System.out.println("==========Yashwanth Reddy Kikkuri == TEST ONE EXECUTED == BadFileName ====== ");
-//        assertNotEquals("rule3.txt",wf.fileName().getName());
-//        System.out.println("==========Yashwanth Reddy Kikkuri == TEST TWO EXECUTED == File is duplicate ====== ");
-        System.out.println("==========Yashwanth Reddy Kikkuri == TEST THIRD EXECUTED == IO Exception ====== ");
-        throw new IOException("File Not Found Exception");
+        assertEquals("rule5.txt",wf.fileName().getName());
+        System.out.println("==========Yashwanth Reddy Kikkuri == TEST ONE EXECUTED == BadFileName ====== ");
+        assertNotEquals("rule3.txt",wf.fileName().getName());
+        System.out.println("==========Yashwanth Reddy Kikkuri == TEST TWO EXECUTED == File is duplicate ====== ");
+//        System.out.println("==========Yashwanth Reddy Kikkuri == TEST THIRD EXECUTED == IO Exception ====== ");
+//        throw new IOException("File Not Found Exception");
     }
 }
