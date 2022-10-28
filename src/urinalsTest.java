@@ -1,3 +1,5 @@
+import java.io.IOException;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class urinalsTest {
@@ -15,5 +17,13 @@ class urinalsTest {
         System.out.println("==========Yashwanth Reddy Kikkuri == TEST FOURTH EXECUTED == FOR COUNT REMAINING ====== ");
         assertEquals(-1,cr.countRemaining(null));
         System.out.println("==========Yashwanth Reddy Kikkuri == TEST FIFTH EXECUTED == FOR COUNT REMAINING ====== ");
+    }
+
+    @org.junit.jupiter.api.Test
+    void readFile() throws IOException {
+        readFile rf = new readFile();
+        StringBuilder output = rf.readFromFile();
+        assertNotNull(output);
+        System.out.println("==========Yashwanth Reddy Kikkuri == TEST ONE EXECUTED == FOR READ FILE ====== ");
     }
 }
