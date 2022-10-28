@@ -23,6 +23,13 @@ public class urinals {
             }
         }
 
+        else if(str.equals("2")){
+            readFile rf = new readFile();
+            String output = rf.readFromFile();
+            writeFile wf = new writeFile();
+            wf.writeToFile(output);
+        }
+
 
     }
 }
