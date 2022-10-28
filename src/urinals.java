@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-
+// Author name: Yashwanth Reddy Kikkuri
 public class urinals {
     public static void main(String[] args) throws IOException {
 
