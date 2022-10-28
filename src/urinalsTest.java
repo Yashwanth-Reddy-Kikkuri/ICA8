@@ -1,3 +1,4 @@
+import java.io.File;
 import java.io.IOException;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -30,6 +31,7 @@ class urinalsTest {
     @org.junit.jupiter.api.Test
     void writeFile(){
         writeFile wf = new writeFile();
-
+        assertEquals("rule5.txt",wf.fileName().getName());
+        System.out.println("==========Yashwanth Reddy Kikkuri == TEST ONE EXECUTED == FOR WRITE FILE ====== ");
     }
 }

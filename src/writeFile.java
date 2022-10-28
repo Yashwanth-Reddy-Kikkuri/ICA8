@@ -10,7 +10,7 @@ public class writeFile {
         bw.close();
     }
 
-    private File fileName(){
+    public File fileName(){
         while(true) {
             String filePath = "rule" + number + ".txt";
             if(number == 0){
