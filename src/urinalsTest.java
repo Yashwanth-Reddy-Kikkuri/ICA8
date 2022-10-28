@@ -18,6 +18,8 @@ class urinalsTest {
         System.out.println("==========Yashwanth Reddy Kikkuri == TEST FOURTH EXECUTED == FOR COUNT REMAINING ====== ");
         assertEquals(-1,cr.countRemaining(null));
         System.out.println("==========Yashwanth Reddy Kikkuri == TEST FIFTH EXECUTED == FOR COUNT REMAINING ====== ");
+        assertEquals(-1,cr.countRemaining("aab"));
+        System.out.println("==========Yashwanth Reddy Kikkuri == TEST SIXTH EXECUTED == FOR COUNT REMAINING ====== ");
     }
 
     @org.junit.jupiter.api.Test
