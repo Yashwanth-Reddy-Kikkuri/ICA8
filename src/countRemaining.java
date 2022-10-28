@@ -5,7 +5,7 @@ public class countRemaining {
     public int countRemaining(String str) {
 
         int i,v = 0;
-        if (str.equals(null)){
+        if (str.equals(null) || str.equals("")){
             return -1;
         }
 
