@@ -39,6 +39,8 @@ class urinalsTest {
     void writeFile(){
         writeFile wf = new writeFile();
         assertEquals("rule5.txt",wf.fileName().getName());
-        System.out.println("==========Yashwanth Reddy Kikkuri == TEST ONE EXECUTED == FOR WRITE FILE ====== ");
+        System.out.println("==========Yashwanth Reddy Kikkuri == TEST ONE EXECUTED == BadFileName ====== ");
+        assertNotEquals("rule3.txt",wf.fileName().getName());
+        System.out.println("==========Yashwanth Reddy Kikkuri == TEST TWO EXECUTED == File is duplicate ====== ");
     }
 }
