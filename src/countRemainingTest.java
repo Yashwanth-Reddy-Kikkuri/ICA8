@@ -9,5 +9,7 @@ class countRemainingTest {
         System.out.println("==========Yashwanth Reddy Kikkuri == TEST ONE EXECUTED == FOR COUNT REMAINING ====== ");
         assertEquals(2,cr.countRemaining("10000"));
         System.out.println("==========Yashwanth Reddy Kikkuri == TEST TWO EXECUTED == FOR COUNT REMAINING ====== ");
+        assertEquals(-1,cr.countRemaining("1000011"));
+        System.out.println("==========Yashwanth Reddy Kikkuri == TEST THIRD EXECUTED == FOR COUNT REMAINING ====== ");
     }
 }
