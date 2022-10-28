@@ -30,7 +30,7 @@ public class countRemaining {
             }
         }
 
-        int l = -1,p=0,q=0;
+        int p=0,q=0;
 
         char[] ca = str.toCharArray();
 
