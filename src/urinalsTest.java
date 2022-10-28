@@ -24,8 +24,10 @@ class urinalsTest {
     void readFile() throws IOException {
         readFile rf = new readFile();
         StringBuilder output = rf.readFromFile();
-        assertNotNull(output);
-        System.out.println("==========Yashwanth Reddy Kikkuri == TEST ONE EXECUTED == FOR READ FILE ====== ");
+//        assertNotNull(output);
+//        System.out.println("==========Yashwanth Reddy Kikkuri == TEST ONE EXECUTED == File Doesn't Exist ====== ");
+        assertEquals("",String.valueOf(output));
+        System.out.println("==========Yashwanth Reddy Kikkuri == TEST TWO EXECUTED == Empty file ====== ");
     }
 
     @org.junit.jupiter.api.Test
